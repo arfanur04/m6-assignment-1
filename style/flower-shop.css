@@ -18,6 +18,22 @@ body {
 	font-weight: 700;
 }
 
+.primary-color {
+	color: #E55473;
+}
+
+.section-title {
+	color: #272727;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.section-description {
+	color: rgba(39, 39, 39, 0.6);
+	font-size: 18px;
+	font-weight: 400;
+}
+
 /*: ------------------------- header related style ------------------------- */
 .header {
 	display: flex;
@@ -46,28 +62,19 @@ body {
 }
 
 .header-description {
-	color: rgba(39, 39, 39, 0.6);
-	font-size: 18px;
-	font-weight: 400;
 	margin: 32px 0;
 }
 
 
 /*: -------------------------- Our Featured Flowers -------------------------- */
 .feature-flower-title {
-	color: #272727;
 	text-align: center;
-	font-size: 40px;
-	font-weight: 800;
 	margin-top: 178px;
 	margin-bottom: 24px;
 }
 
 .feature-flower-description {
-	color: rgba(39, 39, 39, 0.60);
 	text-align: center;
-	font-size: 18px;
-	font-weight: 400;
 	line-height: 30px;
 	margin-bottom: 48px;
 }
@@ -117,4 +124,27 @@ body {
 	font-size: 24px;
 	font-weight: 700;
 	text-decoration-line: underline;
+}
+
+/*: ---------------------------- hot deal section ---------------------------- */
+.hot-deal-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 8px;
+	background-color: rgba(229, 84, 115, 0.05);
+	margin: 128px 0;
+	padding: 100px 0;
+}
+
+.hot-deal-content {
+	text-align: center;
+}
+
+.hot-deal-title {
+	margin-bottom: 24px;
+}
+
+.hot-deal-description {
+	margin-bottom: 32px;
 }
