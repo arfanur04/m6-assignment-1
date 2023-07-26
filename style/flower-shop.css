@@ -1,4 +1,4 @@
-/*: common shared styles */
+/*: -------------------------- common shared styles -------------------------- */
 * {
 	margin: 0;
 	padding: 0;
@@ -18,7 +18,7 @@ body {
 	font-weight: 700;
 }
 
-/*: header related style */
+/*: ------------------------- header related style ------------------------- */
 .header {
 	display: flex;
 	align-items: center;
@@ -50,4 +50,71 @@ body {
 	font-size: 18px;
 	font-weight: 400;
 	margin: 32px 0;
+}
+
+
+/*: -------------------------- Our Featured Flowers -------------------------- */
+.feature-flower-title {
+	color: #272727;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 178px;
+	margin-bottom: 24px;
+}
+
+.feature-flower-description {
+	color: rgba(39, 39, 39, 0.60);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 48px;
+}
+
+.feature-flower-container {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 24px;
+	margin: 0 200px;
+}
+
+.feature-flower-item {
+	width: 464px;
+	height: 538px;
+	border-radius: 300px 300px 0px 0px;
+
+}
+
+.div-1 {
+	background-color: rgba(167, 33, 98, 0.15);
+	background-image: url('../Flower-Asset/pngwing-6.png');
+	background-size: 50%/cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.div-2 {
+	background: rgba(5, 151, 160, 0.15);
+	background-image: url('../Flower-Asset/pngwing-5.png');
+	background-size: 50%/cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.div-3 {
+	background: rgba(71, 125, 17, 0.15);
+	background-image: url('../Flower-Asset/pngwing-7.png');
+	background-size: 50%/cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.feature-flower-caption {
+	margin-top: 32px;
+	color: #272727;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration-line: underline;
 }
