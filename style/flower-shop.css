@@ -172,6 +172,57 @@ body {
 	margin: 24px 0 48px;
 }
 
+/*: ------------------------------- Top Selling ------------------------------ */
+.top-selling-container {
+	text-align: center;
+	border-radius: 8px;
+	background-color: rgba(229, 84, 115, 0.05);
+	margin: 128px 0;
+	padding: 100px 0;
+}
+
+.top-selling-content {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.top-selling-description {
+	margin: 24px 0 24px;
+}
+
+.top-selling-flowers {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.top-selling-flowers img {
+	border: 5px solid gainsboro;
+
+}
+
+.badge {
+	background-color: red;
+	color: white;
+	padding: 4px 8px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.buy-now-btn {
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 8px;
+	background-color: #e55473;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.top-selling-price {
+	margin: 5px 0;
+}
+
 /*: ---------------------- Get The Latest Deals Section ---------------------- */
 .latest-deals-parent {
 	max-width: 1140px;
