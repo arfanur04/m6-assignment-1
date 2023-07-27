@@ -81,38 +81,39 @@ body {
 
 .feature-flower-container {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	gap: 24px;
-	margin: 0 200px;
+	margin: 0 auto;
+	max-width: 1140px;
 }
 
 .feature-flower-item {
-	width: 464px;
-	height: 538px;
+	width: 348px;
+	height: 404px;
 	border-radius: 300px 300px 0px 0px;
 
 }
 
-.div-1 {
+.feature-flower-1 {
 	background-color: rgba(167, 33, 98, 0.15);
 	background-image: url('../Flower-Asset/pngwing-6.png');
-	background-size: 50%/cover;
+	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
-.div-2 {
+.feature-flower-2 {
 	background: rgba(5, 151, 160, 0.15);
 	background-image: url('../Flower-Asset/pngwing-5.png');
-	background-size: 50%/cover;
+	background-size: 90%;
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
 
-.div-3 {
+.feature-flower-3 {
 	background: rgba(71, 125, 17, 0.15);
 	background-image: url('../Flower-Asset/pngwing-7.png');
-	background-size: 50%/cover;
+	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
@@ -147,4 +148,55 @@ body {
 
 .hot-deal-description {
 	margin-bottom: 32px;
+}
+
+/*: ---------------------------- Instagram section --------------------------- */
+.instagram-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	margin: 0 auto 128px;
+	max-width: 1140px;
+}
+
+.instagram-container img {
+	width: 20%;
+}
+
+.instagram-title {
+	text-align: center;
+}
+
+.instagram-description {
+	text-align: center;
+	margin: 24px 0 48px;
+}
+
+/*: ---------------------- Get The Latest Deals Section ---------------------- */
+.latest-deals-parent {
+	max-width: 1140px;
+	margin: 0 auto 128px;
+}
+
+.latest-deals-container {
+	padding: 120px 0;
+	border-radius: 8px;
+	background-image: url('../Flower-Asset/Rectangle-9.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.latest-deals-content {
+	text-align: center;
+}
+
+.latest-deals-description {
+	margin: 16px 0 48px;
+}
+
+.subscribe-input {
+	padding: 22px;
+	border: 0;
+	width: 50%;
+	margin-rightg: 16px;
 }
